@@ -59,13 +59,13 @@
     position: relative;
     max-width: 600px;
 }
-.content .textbox h2 {
+.content .textbox > h2 {
     color: #333;
-    font-size: 4em;
+    font-size: 6em;
     line-height: 1.4em;
     font-weight: 500;
 }
-.content .textbox h2 span {
+.content .textbox span {
     color: #017143;
     font-size: 1.2em;
     font-weight: 900;
@@ -77,13 +77,26 @@
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
-    background: #017143;
+    font-size: 22px;
     color: #fff;
     border-radius: 40px;
     font-weight: 400;
     letter-spacing: 1px;
     text-decoration: none;
 }
+#btn {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    width: auto;
+    border: black;
+    border-radius: 2px solid;
+    align-items: center;
+    color: white;
+    margin-left: 400px;
+    height: 30px;
+ }
+
 .content .imagebox{
     width: 700px;
     display: flex;
