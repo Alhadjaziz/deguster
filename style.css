@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'poppins' sans-serif;
 }
+
+    
+
 .section {
     position: relative;
     width: 100%;
@@ -12,23 +15,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fff;
+    background: #9c2929;
 }
-.header {
+.heder {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px 100px;
+   
 }
 .header .logo{
     position: relative;
-    max-width: 80px;
+    width: 80px;
     
 }
 .header ul{
     position: relative;
     display: flex;
+    margin-right: 200px;
+
 }
 .header ul li {
     list-style: none;
@@ -42,11 +48,15 @@
     padding: 10px;
     border-radius: 6px ;
     background: green;
-    text-align: left;
+    text-align: right;
+
     
 
     
     
+}
+a {
+    text-align: center;
 }
 .content {
     position: relative;
@@ -90,11 +100,12 @@
     padding: 20px;
     width: auto;
     border: black;
-    border-radius: 2px solid;
+    border-radius: 5cqmax solid;
     align-items: center;
     color: white;
     margin-left: 400px;
-    height: 30px;
+    height: 60px;
+    width: 120px;
  }
 
 .content .imagebox{
@@ -103,6 +114,7 @@
     justify-content: flex-end;
     padding-right: 50px;
     margin-top: 30px;
+    
 }
 .content .imagebox img 
 {
